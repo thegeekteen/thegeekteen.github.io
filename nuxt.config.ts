@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '',
     head: {
+      title: 'Gian Lorenzo Abaño',
       link: [
         { rel: 'stylesheet', href: 'assets/css/main.css' },
         { rel: 'stylesheet', href: 'assets/css/noscript.css' }

@@ -118,8 +118,7 @@ export default defineAppConfig({
                 `,
                 actionButton: {
                     url: 'https://maryhillcollege.edu.ph'
-                },
-                companyUrl: '',
+                }
             },
             {
                 img: '/images/sb-basbacio.png',
