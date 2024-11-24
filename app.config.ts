@@ -143,7 +143,7 @@ export default defineAppConfig({
                 img: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/af/DLSCSB_seal.svg/440px-DLSCSB_seal.svg.png',
                 title: 'De La Salle-College of Saint Benilde',
                 address: 'Taft Ave, Manila',
-                subTitle: 'College | Undergrad | 2015 - 2018',
+                subTitle: 'B.S. Information Systems | Undergrad | 2015 - 2018',
                 description: null
             },
             {
