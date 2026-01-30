@@ -105,9 +105,6 @@ export default defineAppConfig({
                     <li><b>Software Development:</b>
                         <ul>
                         <li>Spearheaded the development environment setup by containerizing Maryhill CMS using Docker, intialized a git repository with codes pushed to master goes directly to production which streamlined development processes.</li>
-                        <li>Started the design and implementation of the Alumni Directory Microsite within my inaugural month, showcasing rapid delivery and precision: 
-                            <a href="https://alumni.maryhillcollege.edu.ph" target="_blank">https://alumni.maryhillcollege.edu.ph</a>.
-                        </li>
                         <li>Entrusted with the optimization of the Maryhill College CMS. Introduced consistent enhancements and effectively debugged intricate issues utilizing PHP, JavaScript, MySQL, HTML, and CSS.</li>
                         <li>Developed Admission System - 
                             <a href="https://admissions.maryhillcms.net" target="_blank">https://admissions.maryhillcms.net</a>.
