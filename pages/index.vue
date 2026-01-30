@@ -30,7 +30,7 @@ function formatInternationalPhoneNumber(phone) {
 
     <!-- Header -->
     <header id="header" class="alt">
-        <h1><a href="index.html">{{ appConfig.appName }}</a></h1>
+        <h1><a href="/">{{ appConfig.appName }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>

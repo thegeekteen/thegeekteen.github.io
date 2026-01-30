@@ -124,7 +124,7 @@ export default defineAppConfig({
                 img: '/images/sb-basbacio.png',
                 title: 'S.B. Basbacio Construction',
                 address: 'Lucena City, Philippines',
-                subTitle: 'Contact Work | January 2022 - June 2022',
+                subTitle: 'Contract Work | January 2022 - June 2022',
                 description: `
                     <ul>
                         <li>Developed a Construction Management System according to their business specifications</li>
