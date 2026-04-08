@@ -3,24 +3,23 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   ssr: false,
   devtools: { enabled: true },
-  modules: ['@nuxt/scripts'],
+  modules: ['@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css'
+  },
   app: {
     baseURL: '',
     head: {
-      title: 'Gian Lorenzo Abaño',
+      title: 'Gian Lorenzo Abaño — Full-Stack Developer',
+      meta: [
+        { name: 'description', content: 'Portfolio of Gian Lorenzo Abaño — Full-Stack Developer building web and mobile apps with PHP, JavaScript, Vue/Nuxt, Flutter and more.' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ],
       link: [
-        { rel: 'stylesheet', href: 'assets/css/main.css' },
-        { rel: 'stylesheet', href: 'assets/css/noscript.css' }
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap' }
       ]
-    }
-  },
-  scripts: {
-    globals: {
-      'jquery_min': [{ src: 'assets/js/jquery.min.js' }, { trigger: 'client' }],
-      'jquery_scrollex_min': [{ src: 'assets/js/jquery.scrollex.min.js' }, { trigger: 'client' }],
-      'breakpoints_min': [{ src: 'assets/js/breakpoints.min.js' }, { trigger: 'client' }],
-      'util': [{ src: 'assets/js/util.js' }, { trigger: 'client' }],
-      'main': [{ src: 'assets/js/main.js' }, { trigger: 'client' }]
     }
   }
 });
