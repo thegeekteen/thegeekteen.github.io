@@ -11,7 +11,7 @@ export default defineAppConfig({
     github: "https://github.com/thegeekteen",
     linkedin: "https://www.linkedin.com/in/gian-lorenzo-a-295a26bb/",
     skills_section: {
-        descriptionText: "With over 9 years of programming adventures and 3 years of professional working experience, I bring a treasure chest of technical knowledge and a proven knack for making projects successful!",
+        descriptionText: "With over 4 years of professional working experience, I bring a treasure chest of technical knowledge and a proven knack for making projects successful!",
         mySkills: [
             {
                 img: "/images/skills/php.svg",
@@ -87,10 +87,10 @@ export default defineAppConfig({
                 },
             },
             {
-                img: 'https://maryhillcms.net/icon.png',
+                img: '/images/maryhillcollege.webp',
                 title: 'Maryhill College, Inc.',
                 address: 'Lucena City, Philippines',
-                subTitle: 'Part Time | December 2022 - September 2024',
+                subTitle: 'Part Time | December 2022 - September 2023',
                 description: `
                     <ul>
                     <li><b>Server Management:</b>
@@ -144,7 +144,7 @@ export default defineAppConfig({
                 description: null
             },
             {
-                img: 'https://maryhillcms.net/icon.png',
+                img: '/images/maryhillcollege.webp',
                 title: 'Maryhill College, Inc.',
                 address: 'Lucena City, Philippines',
                 subTitle: 'Elementary - High School | 2005 - 2015',
