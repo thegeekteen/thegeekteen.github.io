@@ -1,7 +1,7 @@
 export default defineAppConfig({
     appName: "Gian Lorenzo Abaño",
     photo: '/images/Gian.jpg.webp',
-    resumeLink: '',
+    resumeLink: '/resume/Gian-Lorenzo-Abano-Resume.pdf',
     headerName: "Hi, I'm Gian Lorenzo Abaño",
     positionName: "Full-Stack Developer",
     positionShortDescription: "Proficient in HTML5, PHP, JavaScript, MySQL, DevOps and Cross-Platform Development",

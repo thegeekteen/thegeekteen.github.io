@@ -46,6 +46,7 @@ const year = new Date().getFullYear();
           <div class="flex flex-col gap-1">
             <a v-if="appConfig.github" :href="appConfig.github" target="_blank" rel="noopener" class="text-ink hover:text-accent-cyan">GitHub ↗</a>
             <a v-if="appConfig.linkedin" :href="appConfig.linkedin" target="_blank" rel="noopener" class="text-ink hover:text-accent-cyan">LinkedIn ↗</a>
+            <a v-if="appConfig.resumeLink" :href="appConfig.resumeLink" download class="text-ink hover:text-accent-cyan">Resume ↓</a>
           </div>
         </div>
       </div>
